@@ -1,0 +1,272 @@
+<html>
+    <head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    </head>
+    <body style="background-color:#e6f2ff;">
+        
+<div style="width:80%;margin-top:5%;margin-left:10%">
+    <h2>The Subjects I have Passed!</h2>
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Subject</th>
+          <th scope="col">Grade</th>
+          <th scope="col">Semester(#)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>ΔΙΑΚΡΙΤΑ ΜΑΘΗΜΑΤΙΚΑ</td>
+          <td>8</td>
+          <td>1st</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>ΕΙΣΑΓΩΓΗ ΣΤΟΝ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟ</td>
+          <td>8</td>
+          <td>1st</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>ΛΟΓΙΚΗ ΣΧΕΔΙΑΣΗ</td>
+          <td>8</td>
+          <td>1st</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>ΕΡΓΑΣΤΗΡΙΟ ΛΟΓΙΚΗΣ ΣΧΕΔΙΑΣΗΣ</td>
+          <td>8</td>
+          <td>1st</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>ΕΙΣΑΓΩΓΗ ΣΤΗΝ ΠΛΗΡΟΦΟΡΙΚΗ & ΣΤΙΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΕΣ</td>
+          <td>7</td>
+          <td>1st</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>ΑΡΧΙΤΕΚΤΟΝΙΚΗ ΥΠΟΛΟΓΙΣΤΩΝ Ι</td>
+          <td>7</td>
+          <td>2nd</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>ΑΝΑΛΥΣΗ Ι</td>
+          <td>5</td>
+          <td>2nd</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>ΔΟΜΕΣ ΔΕΔΟΜΕΝΩΝ ΚΑΙ ΤΕΧΝΙΚΕΣ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ</td>
+          <td>8</td>
+          <td>2nd</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>ΑΝΑΛΥΣΗ ΙΙ</td>
+          <td>6</td>
+          <td>3rd</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>ΑΝΤΙΚΕΙΜΕΝΟΣΤΡΑΦΗΣ ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ</td>
+          <td>6</td>
+          <td>3rd</td>
+        </tr>  
+        <tr>
+          <th scope="row">11</th>
+          <td>ΠΙΘΑΝΟΤΗΤΕΣ ΚΑΙ ΣΤΑΤΙΣΤΙΚΗ</td>
+          <td>6</td>
+          <td>3rd</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td>ΣΗΜΑΤΑ ΚΑΙ ΣΥΣΤΗΜΑΤΑ</td>
+          <td>7</td>
+          <td>3th</td>
+        </tr>
+        <tr>
+          <th scope="row">13</th>
+          <td>ΑΛΓΟΡΙΘΜΟΙ ΚΑΙ ΠΟΛΥΠΛΟΚΟΤΗΤΑ</td>
+          <td>5</td>
+          <td>4th</td>
+        </tr>
+        <tr>
+          <th scope="row">14</th>
+          <td>ΣΧΕΔΙΑΣΗ ΚΑΙ ΧΡΗΣΗ ΒΑΣΕΩΝ ΔΕΔΟΜΕΝΩΝ</td>
+          <td>7</td>
+          <td>4th</td>
+        </tr>
+        <tr>
+          <th scope="row">15</th>
+          <td>ΔΙΚΤΥΑ ΕΠΙΚΟΙΝΩΝΙΩΝ Ι</td>
+          <td>6</td>
+          <td>4th</td>
+        </tr>
+        
+        <tr>
+          <th scope="row">16</th>
+          <td>ΛΕΙΤΟΥΡΓΙΚΑ ΣΥΣΤΗΜΑΤΑ</td>
+          <td>7,5</td>
+          <td>5th</td>
+        </tr>
+        <tr>
+          <th scope="row">17</th>
+          <td>ΠΑΡΑΛΛΗΛΑ ΣΥΣΤΗΜΑΤΑ</td>
+          <td>6</td>
+          <td>5th</td>
+        </tr>
+        <tr>
+          <th scope="row">18</th>
+          <td>ΥΛΟΠΟΙΗΣΗ ΣΥΣΤΗΜΑΤΩΝ ΒΑΣΕΩΝ ΔΕΔΟΜΕΝΩΝ</td>
+          <td>9</td>
+          <td>5th</td>
+        </tr>
+        <tr>
+          <th scope="row">19</th>
+          <td>ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ</td>
+          <td>8</td>
+          <td>5th</td>
+        </tr>
+        <tr>
+          <th scope="row">20</th>
+          <td>ΤΕΧΝΟΛΟΓΙΕΣ ΕΦΑΡΜΟΓΩΝ ΔΙΑΔΙΚΤΥΟΥ</td>
+          <td>9</td>
+          <td>6th</td>
+        </tr>
+        <tr>
+          <th scope="row">21</th>
+          <td>ΜΕΤΑΓΛΩΤΤΙΣΤΕΣ</td>
+          <td>8</td>
+          <td>6th</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>ΠΡΟΣΤΑΣΙΑ & ΑΣΦΑΛΕΙΑ</td>
+          <td>7,5</td>
+          <td>8th</td>
+        </tr>
+        
+        
+        <tr>
+          <th scope="row">21</th>
+          <td>ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΣΥΣΤΗΜΑΤΟΣ</td>
+          <td>7</td>
+          <td>6th</td>
+        </tr>
+        <tr>
+          <th scope="row">22</th>
+          <td>ΘΕΩΡΙΑ ΥΠΟΛΟΓΙΣΜΟΥ</td>
+          <td>8</td>
+          <td>6th</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>ΔΙΑΧΕΙΡΙΣΗ ΔΙΚΤΥΩΝ</td>
+          <td>10</td>
+          <td>6th</td>
+        </tr>
+        <tr>
+          <th scope="row">24</th>
+          <td>ΕΠΙΚΟΙΝΩΝΙΑ ΑΝΘΡΩΠΟΥ - ΜΗΧΑΝΗΣ</td>
+          <td>6</td>
+          <td>7th</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>ΜΙΚΡΟΟΙΚΟΝΟΜΙΚΗ ΑΝΑΛΥΣΗ</td>
+          <td>6</td>
+          <td>7th</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+
+<div style="width:70%;margin-top:5%;margin-left:15%">
+    <h2>The Subjects I have yet to Pass!</h2>
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Subject</th>
+          <th scope="col">Semester(Ε/Χ)</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <th scope="row">3</th>
+          <td>ΣΥΣΤΗΜΑΤΑ ΕΠΙΚΟΙΝΩΝΙΩΝ</td>
+          <td>ΕΑΡΙΝΟ</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>ΗΛΕΚΤΟΜΑΓΝΗΤΙΣΜΟΣ & ΟΠΤΙΚΗ</td>
+          <td>ΕΑΡΙΝΟ</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>ΕΠΕΞΕΡΓΑΣΙΑ ΣΤΟΧΑΣΤΙΚΩΝ ΣΗΜΑΤΩΝ</td>
+          <td>ΕΑΡΙΝΟ</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>ΔΙΟΙΚΗΣΗ ΕΡΓΩΝ</td>
+          <td>ΕΑΡΙΝΟ</td>
+        </tr>
+        >
+        <tr>
+          <th scope="row">8</th>
+          <td>ΣΥΣΤΗΜΑΤΑ ΚΙΝΗΤΩΝ</td>
+          <td>ΧΕΙΜΕΡΙΝΟ</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>ΑΡΙΘΜΙΤΙΚΗ ΑΝΑΛΥΣΗ</td>
+          <td>ΧΕΙΜΕΡΙΝΟ</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>ΔΙΚΤΥΑ 2</td>
+          <td>ΧΕΙΜΕΡΙΝΟ</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>ΤΗΛΕΠΙΚΟΙΝΩΝΙΑΚΑ ΔΙΚΤΥΑ</td>
+          <td>ΧΕΙΜΕΡΙΝΟ</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td>ΓΡΑΜΜΙΚΗ ΑΛΓΕΒΡΑ</td>
+          <td>ΧΕΙΜΕΡΙΝΟ</td>
+        </tr>
+        <tr>
+          <th scope="row">13</th>
+          <td>ΔΟΜΗ & ΘΕΣΜΟΙ ΕΕ</td>
+          <td>ΧΕΙΜΕΡΙΝΟ</td>
+        </tr>
+        <tr>
+          <th scope="row">14</th>
+          <td>PROJECT</td>
+          <td>ΧΕΙΜΕΡΙΝΟ</td>
+        </tr>
+        
+      </tbody>
+    </table>
+</div>
+
+    </body>
+</html>

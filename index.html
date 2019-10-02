@@ -10,6 +10,27 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script>
+$(function(){
+    $("#button_2to1").click(function(){
+        $("#pic2").hide();
+        $("#pic1").show("fast",function(){});
+        $("#button_2to1").hide();
+        $("#button_1to2").show();
+    });
+});
+
+
+$(function(){
+    $("#button_1to2").click(function(){
+        $("#pic1").hide();
+        $("#pic2").show("fast",function(){});
+        $("#button_1to2").hide();
+        $("#button_2to1").show();
+    });
+});
+    </script>
     </head>
     <body style="background-color:#e6f2ff;margin-left:1%">
         <div>
@@ -17,8 +38,11 @@
             <p>This is me, though I'm a little older now</p>
         </div>
         <!--BS Card -->
-        <div class="card" style="width: 16rem;">          
-           <img src="Myself.png" class="card-img-top" alt="Why is this not showing?.. Arg!">
+        <div class="card" style="width:16rem;">
+            <div style="background-color:black;width:16rem;height:21rem;">
+                <img style="width:100%" src="Myself.png" id="pic2" class="card-img-top" alt="Why is this not showing?.. Arg!">
+                <img style="width:100%;display:none;margin-top:20%;" src="cropped_fbprofpic.png" id="pic1" class="card-img-top">
+            </div>
             <div class="card-body">
                <!--
                <h5 class="card-title">Card title</h5>
@@ -30,6 +54,11 @@
                </div>
             </div>
         </div>
+        </br>
+        <button id="button_2to1" class="btn btn-primary">Press to see me older</button>
+        <button id="button_1to2" style="display:none" class="btn btn-primary">Press to see me young again</button>
+
+        </br>
         </br>
         <div>
             <p>Building sites is not really my thing.. i find it a little boring</p>
